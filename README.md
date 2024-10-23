@@ -9,5 +9,5 @@
 This is how you code.
 ```
 
- [链接地址](https://github.com/MSP-xEN/ubuntu20.04)。
+ [参考安装方法的链接地址](https://github.com/MSP-xEN/ubuntu20.04)。
 

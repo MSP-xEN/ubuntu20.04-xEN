@@ -11,6 +11,8 @@ This is how you code.
 
  [参考安装方法的链接地址](https://github.com/MSP-xEN/ubuntu20.04)。
 
+---
+
 下载任何一个软件前，可能都需要在终端执行以下命令：
 ```
 sudo apt update

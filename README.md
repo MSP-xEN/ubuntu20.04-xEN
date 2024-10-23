@@ -20,7 +20,8 @@ This is how you code.
 ```
 sudo apt update
 ```
-注意区别```sudo apt upgrade```命令。此命令会把所有可以升级的软件都升级，然后可能就崩了，啥也用不了了。  
+注意区别```sudo apt upgrade```命令。此命令会把所有可以升级的软件都升级，然后可能就崩了，啥也用不了了。
+
 [更换阿里源](https://blog.csdn.net/MacWx/article/details/137689898)。
 
 ### gcc, g++, make

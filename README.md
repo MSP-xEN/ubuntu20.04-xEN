@@ -6,7 +6,7 @@
 对以下链接内容的补充更正。
 
 ```
-    This is how you code.
+This is how you code.
 ```
 
 链接地址 [这是一个链接](https://github.com/MSP-xEN/ubuntu20.04)。

@@ -2,7 +2,7 @@
 包括了ubuntu使用所需的基础环境配置，以及unitree_ros、Isaacgym等的安装。  
 
 本文档没有对各个软件或包的安装过程进行重写排版，而是给出了可用的参考链接，然后对链接中有错误或需要补充的内容做单独标注。建议**先看补充内容**，再参考链接中的方法进行操作。参考格式如下：  
-### 软件或包的名称
+### 软件或包的名称-用途
 对以下链接内容的补充更正。
 
 ```
@@ -73,6 +73,13 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 1. 微信目前找到能用的只剩下优麒麟与腾讯合作开发的Linux原生微信[https://ubuntukylin.com/applications/106-cn.html](https://ubuntukylin.com/applications/106-cn.html)。
 2. 功能只有发文字表情微信，连图片都发不了。优麒麟还有几个其他版本的微信，但在Ubuntu上似乎都用不了。还有个deep-in wine版本的微信没用过，不知道好用不。
 
+### 搜狗输入法
+参考以下链接[https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005](https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005)
+
+### teamviewer-远程控制
+1. 安装教程随便搜。
+2. 可以设置固定密码，同时设置开机自动启动。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
+
 ### Clash
 1. 先从以下链接下载解压。[https://jbox.sjtu.edu.cn/l/X1iUcn](https://jbox.sjtu.edu.cn/l/X1iUcn)
 2. 创建快捷方式，收藏桌面到左侧栏。
@@ -138,5 +145,25 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    ```
    4. 打开设置-设备-键盘-拉到最下方-自定义快捷键+，填写相关内容。其中在命令一栏输入脚本所在路径```/home/david/keyboard_shortcut/toggle_proxy.sh```，保存。
 
-### git+ssh配置
+### zotero+相关插件-文献阅读和管理
+1. 我装的zotero6，听说7不太好用。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
+2. 插件不用装太多，我装了翻译、汉化、笔记、风格共四个热门插件，然后浏览器再装一个插件用来导入文献。插件商店链接[https://zotero-chinese.com/plugins/](https://zotero-chinese.com/plugins/)。插件安装教程自行搜索即可。
 
+### git+ssh配置+git代理设置
+[https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)  
+[https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)
+
+### vscode
+网上随便搜个教程即可。记得用学生身份搞一个github copilot，参考以下链接[https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer](https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
+
+### ros
+1. 记得先装ros再装anaconda，不然可能会有问题。
+2. 如果安装或使用ros时提示“cmake版本过低”，不能直接重装cmake（卸载cmake会把ros一起卸载），而是要上网搜索更改软链接的方法。
+3. 参考以下链接[https://blog.csdn.net/qq_44339029/article/details/108919545](https://blog.csdn.net/qq_44339029/article/details/108919545)
+
+### gazebo
+随便搜教程。
+
+### 宇树
+
+### isaacgym

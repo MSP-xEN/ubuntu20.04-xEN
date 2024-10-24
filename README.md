@@ -2,7 +2,7 @@
 包括了ubuntu使用所需的基础环境配置，以及unitree_ros、Isaacgym等的安装。  
 
 本文档没有对各个软件或包的安装过程进行重写排版，而是给出了可用的参考链接，然后对链接中有错误或需要补充的内容做单独标注。建议**先看补充内容**，再参考链接中的方法进行操作。参考格式如下：  
-### 软件或包的名称-用途
+### 软件或包的名称——用途
 对以下链接内容的补充更正。
 
 ```
@@ -13,7 +13,7 @@ This is how you code.
 
 ---
 
-### 设置镜像源
+### 设置镜像源——下载更快
 1. 个人认为不需要备份原文件，把原来的内容注释掉即可。
 2. 个人认为```vim```不好用，可用```gedit```代替，编辑完后记得保存。
 3. 此后下载任何一个软件前，可能都需要在终端执行以下命令：
@@ -24,17 +24,17 @@ sudo apt update
 
 [https://blog.csdn.net/MacWx/article/details/137689898](https://blog.csdn.net/MacWx/article/details/137689898)。
 
-### gcc, g++, make
+### gcc, g++, make——基本
 ```
 sudo apt install build-essential
 ```
 
-### VLC播放器
+### VLC播放器——看视频的
 ```
 sudo apt install vlc
 ```
 
-### nvidia显卡驱动+cuda+cudnn
+### nvidia显卡驱动+cuda+cudnn——机器学习
 1. 网上有关显卡驱动的安装方法五花八门，建议先用最简单的办法安装（几行命令完事），不行再尝试别的路子。
 ```
 ubuntu-drivers devices
@@ -56,7 +56,7 @@ nvidia-smi
    2. 参考以下链接中的cuda和cudnn部分，pytorch先不要装。[https://blog.csdn.net/m0_55127902/article/details/135677560](https://blog.csdn.net/m0_55127902/article/details/135677560)
 5. 最后装cudnn。同样参考上述链接。
 
-### 关闭ubuntu内核自动更新以及显卡驱动自动更新
+### 关闭ubuntu内核自动更新以及显卡驱动自动更新——不然哪一天系统又崩了
 [https://blog.csdn.net/sdbyp/article/details/139606901](https://blog.csdn.net/sdbyp/article/details/139606901)  
 [https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)  
 [https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html](https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html)
@@ -80,7 +80,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 1. 安装教程随便搜。
 2. 可以设置固定密码，同时设置开机自动启动。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
 
-### Clash
+### Clash——魔法
 1. 先从以下链接下载解压。[https://jbox.sjtu.edu.cn/l/X1iUcn](https://jbox.sjtu.edu.cn/l/X1iUcn)
 2. 创建快捷方式，收藏桌面到左侧栏。
    1. 命令行进入桌面，创建快捷方式。
@@ -149,7 +149,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 1. 我装的zotero6，听说7不太好用。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
 2. 插件不用装太多，我装了翻译、汉化、笔记、风格共四个热门插件，然后浏览器再装一个插件用来导入文献。插件商店链接[https://zotero-chinese.com/plugins/](https://zotero-chinese.com/plugins/)。插件安装教程自行搜索即可。
 
-### git+ssh配置+git代理设置
+### git+ssh配置+git代理设置——github
 [https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)  
 [https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)
 

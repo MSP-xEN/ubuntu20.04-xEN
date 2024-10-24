@@ -48,5 +48,6 @@ sudo apt install nvidia-driver-XXX
 nvidia-smi
 ```
 如果正确显示驱动信息，则证明安装成功。如果报错，再重启一遍。如果还不行，那就再想办法吧，大概率要卸载驱动重装。
+3. ac
 3. 重启电脑如果黑屏并且左上角有个下划线形状的光标一直在跳，那就参考这个链接[https://blog.csdn.net/qq_43460315/article/details/142643949](https://blog.csdn.net/qq_43460315/article/details/142643949)。只要能回到图形界面，就可以重装显卡驱动了。
 4. 然后装cuda。

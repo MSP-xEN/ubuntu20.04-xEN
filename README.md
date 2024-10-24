@@ -164,6 +164,16 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 ### gazebo
 随便搜教程。
 
+### anaconda
+1. 一定确保先装ros再装conda。
+2. 不要默认启动conda。
+3. 不要把conda加到环境变量中，用ubuntu20.04默认的python就挺好。
+4. 参考以下链接[https://blog.csdn.net/m0_50117360/article/details/108403586](https://blog.csdn.net/m0_50117360/article/details/108403586)
+5. 如果conda还是莫名自动启动了，用以下命令禁止：
+```
+conda config --set auto_activate_base false
+```
+
 ### 宇树
 
 ### isaacgym

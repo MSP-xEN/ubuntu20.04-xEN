@@ -185,7 +185,11 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 ### isaacgym
 1. pytorch和isaacgym都是装在conda环境里的包，不需要下载到系统默认环境中。可以先跑一跑官方提供的例程。
 2. ubuntu20.04在安装isaacgym后需要修改环境变量。
+   ```sudo gedit ~/.bashrc
+   ```
+   添加以下内容：
    ```
    export LD_LIBRARY_PATH=/home/david/anaconda3/envs/rlgpu/lib
    ```
+   此后创建需要使用isaacgym的新环境时也需要如此操作。
 3. 参考以下链接[https://blog.csdn.net/weixin_44061195/article/details/131830133](https://blog.csdn.net/weixin_44061195/article/details/131830133)

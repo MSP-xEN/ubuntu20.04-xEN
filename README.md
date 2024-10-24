@@ -65,8 +65,12 @@ nvidia-smi
 1. ubuntu自带的火狐并不好用。如果在windows用的是edge或者chrome的话，在ubuntu中与windows同步即可。登录账号之后还能通用收藏夹等等，比较方便。安装方法随便一搜即可。
 2. 安装完成后设置ubuntu默认浏览器，参考[https://cn.linux-console.net/?p=14822](https://cn.linux-console.net/?p=14822)
 
-### qq
+### QQ
 QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。Ubuntu的各种微信除了不能用的就是垃圾。
 [https://blog.csdn.net/weixin_56656559/article/details/135640700](https://blog.csdn.net/weixin_56656559/article/details/135640700)
 
 ### 微信
+1. 微信目前找到能用的只剩下优麒麟与腾讯合作开发的Linux原生微信[https://ubuntukylin.com/applications/106-cn.html](https://ubuntukylin.com/applications/106-cn.html)。
+2. 功能只有发文字表情微信，连图片都发不了。优麒麟还有几个其他版本的微信，但在Ubuntu上似乎都用不了。还有个deep-in wine版本的微信没用过，不知道好用不。
+
+### CLASH

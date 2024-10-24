@@ -51,4 +51,19 @@ nvidia-smi
 如果正确显示驱动信息，则证明安装成功。如果报错，再重启一遍。如果还不行，那就再想办法吧，大概率要卸载驱动重装。
 
 3. 重启电脑如果黑屏并且左上角有个下划线形状的光标一直在跳，那就参考这个链接[https://blog.csdn.net/qq_43460315/article/details/142643949](https://blog.csdn.net/qq_43460315/article/details/142643949)。只要能回到图形界面，就可以重装显卡驱动了。
-4. 然后装cuda。
+4. 然后装cuda。```nvidia-smi```命令显示的是当前显卡驱动适配的最高版本cuda，实际安装时再倒退一两个版本以求稳定。
+   1. cuda装完之后添加环境变量可以直接写到```~/.bashrc```当中。
+   2. 参考以下链接中的cuda和cudnn部分，pytorch先不要装。[https://blog.csdn.net/m0_55127902/article/details/135677560](https://blog.csdn.net/m0_55127902/article/details/135677560)
+5. 最后装cudnn。同样参考上述链接。
+
+### 关闭ubuntu内核自动更新以及显卡驱动自动更新
+[https://blog.csdn.net/sdbyp/article/details/139606901](https://blog.csdn.net/sdbyp/article/details/139606901)
+[https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)
+[https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html](https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html)
+
+### 浏览器
+1. ubuntu自带的火狐并不好用。如果在windows用的是edge或者chrome的话，在ubuntu中与windows同步即可。登录账号之后还能通用收藏夹等等，比较方便。安装方法随便一搜即可。
+2. 安装完成后设置ubuntu默认浏览器，参考[https://cn.linux-console.net/?p=14822](https://cn.linux-console.net/?p=14822)
+
+### qq
+

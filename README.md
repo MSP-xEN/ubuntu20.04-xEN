@@ -1,7 +1,7 @@
 # ubuntu20.04环境配置
 包括了ubuntu使用所需的基础环境配置，以及unitree_ros、Isaacgym等的安装。  
 
-本文档没有对各个软件或包的安装过程进行重写排版，而是给出了可用的参考链接，然后对链接中有错误或需要补充的内容做单独标注。建议**先看补充内容**，再参考链接中的方法进行操作。参考格式如下：  
+本文档没有对各个软件或包的安装过程进行重写排版，而是给出了可用的参考链接，然后对链接中有错误或需要补充的内容做单独标注。建议**先看补充内容**，再参考链接中的方法进行操作。如果针对同一内容给出了多个参考链接，大概是需要对各个链接内容取并集。参考格式如下：  
 ### 软件或包的名称——用途
 对以下链接内容的补充更正。
 
@@ -167,7 +167,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 ### anaconda
 1. 一定确保先装ros再装conda。
 2. 不要默认启动conda。
-3. 不要把conda加到环境变量中，用ubuntu20.04默认的python就挺好。
+3. 不要把conda加到环境变量中，用ubuntu20.04默认的python3就挺好。
 4. 参考以下链接[https://blog.csdn.net/m0_50117360/article/details/108403586](https://blog.csdn.net/m0_50117360/article/details/108403586)
 5. 如果conda还是莫名自动启动了，用以下命令禁止：
 ```
@@ -175,5 +175,13 @@ conda config --set auto_activate_base false
 ```
 
 ### 宇树
-
+1. LCM装1.5版本，不要装1.4版本。其余包与链接中保持一致即可。
+2. 如果安装```unitree_legged_sdk```后试运行```./example_walk```报错```error while loading shared libraries: liblcm.so.1: cannot open shared object file: No such file or directory```，那么执行以下命令
+```
+sudo apt install liblcm-dev
+```
+3. 知乎链接中的“4.修改环境变量”没必要。
+4. 参考链接[https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html](https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html)
+   [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)
+   
 ### isaacgym

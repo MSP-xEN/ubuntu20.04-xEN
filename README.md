@@ -35,4 +35,17 @@ sudo apt install vlc
 ```
 
 ### nvidia显卡驱动+cuda+cudnn
-
+1. 网上有关显卡驱动的安装方法五花八门，建议先用最简单的办法安装（几行命令完事），不行再尝试别的路子。
+```
+ubuntu-drivers devices
+```
+此时会出现多个驱动，选择安装后缀写着“recommended”版本
+```
+sudo apt install nvidia-driver-XXX
+```
+2. 重启电脑后输入命令
+```
+nvidia-smi
+```
+如果正确显示驱动信息，则证明安装成功。如果报错，再重启一遍。如果还不行，那就再想办法吧，大概率要卸载驱动重装。
+3. 重启电脑如果黑屏并且左上角有个下划线形状的光标一直在跳，那就参考这个链接[https://blog.csdn.net/qq_43460315/article/details/142643949](https://blog.csdn.net/qq_43460315/article/details/142643949)。只要能回到图形界面，就可以重装显卡驱动了。

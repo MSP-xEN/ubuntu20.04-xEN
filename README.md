@@ -66,4 +66,7 @@ nvidia-smi
 2. 安装完成后设置ubuntu默认浏览器，参考[https://cn.linux-console.net/?p=14822](https://cn.linux-console.net/?p=14822)
 
 ### qq
+QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。Ubuntu的各种微信除了不能用的就是垃圾。
+[https://blog.csdn.net/weixin_56656559/article/details/135640700](https://blog.csdn.net/weixin_56656559/article/details/135640700)
 
+### 微信

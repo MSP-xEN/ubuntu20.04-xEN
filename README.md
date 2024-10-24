@@ -101,4 +101,42 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    sudo chmod +x clash.desktop
    ```
 
+   4. 最后将此快捷方式复制到指定位置
+   ```
+   sudo cp clash.desktop /usr/share/applications
+   ```
+
+   此时点击桌面左下角的“显示应用程序”，应能找到Clash图标，并收藏到左侧栏。
+3. 创建系统网络代理切换快捷键。
+   1. 创建脚本，可以将此类快捷键脚本都存放到统一路径下。
+   ```
+   mkdir ~/keyboard_shortcut
+   gedit ~/keyboard_shortcut/toggle_proxy.sh
+   ```
+
+   2. 在脚本文件中写入以下内容，保存。
+   ```
+   #!/bin/bash
+   export DISPLAY=:0
+   export XAUTHORITY=/run/user/$(id -u)/gdm/Xauthority
    
+   PROXY_MODE=$(gsettings get org.gnome.system.proxy mode)
+   
+   
+   if [ "$PROXY_MODE" == "'none'" ]; then
+       gsettings set org.gnome.system.proxy mode 'manual'
+       echo "代理已切换为手动"
+   else
+       gsettings set org.gnome.system.proxy mode 'none'
+       echo "代理已禁用"
+   fi
+   ```
+
+   3. 赋予脚本可执行权限。
+   ```
+   chmod +x ~/keyboard_shortcut/toggle_proxy.sh
+   ```
+   4. 打开设置-设备-键盘-拉到最下方-自定义快捷键+，填写相关内容。其中在命令一栏输入脚本所在路径```/home/david/keyboard_shortcut/toggle_proxy.sh```，保存。
+
+### git+ssh配置
+

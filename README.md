@@ -57,8 +57,8 @@ nvidia-smi
 5. 最后装cudnn。同样参考上述链接。
 
 ### 关闭ubuntu内核自动更新以及显卡驱动自动更新
-[https://blog.csdn.net/sdbyp/article/details/139606901](https://blog.csdn.net/sdbyp/article/details/139606901)
-[https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)
+[https://blog.csdn.net/sdbyp/article/details/139606901](https://blog.csdn.net/sdbyp/article/details/139606901)  
+[https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)  
 [https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html](https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html)
 
 ### 浏览器

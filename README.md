@@ -14,15 +14,16 @@ This is how you code.
 ---
 
 ### 设置镜像源
-个人认为不需要备份原文件，把原来的内容注释掉即可。  
-个人认为```vim```不好用，可用```gedit```代替，编辑完后记得保存。  
+1. 个人认为不需要备份原文件，把原来的内容注释掉即可。
+2. 个人认为```vim```不好用，可用```gedit```代替，编辑完后记得保存。
+
 此后下载任何一个软件前，可能都需要在终端执行以下命令：
 ```
 sudo apt update
 ```
 注意区别```sudo apt upgrade```命令。此命令会把所有可以升级的软件都升级，**然后可能就崩了，啥也用不了了**。
 
-[更换阿里源](https://blog.csdn.net/MacWx/article/details/137689898)。
+[https://blog.csdn.net/MacWx/article/details/137689898](https://blog.csdn.net/MacWx/article/details/137689898)。
 
 ### gcc, g++, make
 ```

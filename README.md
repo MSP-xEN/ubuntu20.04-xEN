@@ -76,4 +76,29 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 ### Clash
 1. 先从以下链接下载解压。[https://jbox.sjtu.edu.cn/l/X1iUcn](https://jbox.sjtu.edu.cn/l/X1iUcn)
 2. 创建快捷方式，收藏桌面到左侧栏。
-   1. 
+   1. 命令行进入桌面，创建快捷方式。
+   ```
+   cd ~/桌面
+   sudo gedit clash.desktop
+   ```
+   2. 然后将下面内容复制进去。Name即快捷方式图标下面显示的名称，Comment是这个快捷方式的文件名，Exec是可执行文件的所在路径（注意该路径中不要出现空格），Icon是快捷方式图标的所在路径（网上搜一个clash图标的图片文件）。
+   ```
+   [Desktop Entry]
+   Version=1.0
+   Name=Clash for Linux
+   GenericName=Clash for Linux
+   Comment=clash
+   Exec=/home/david/Clash-for-Windows-0.20.20-x64-linux/cfw
+   Icon=/home/david/Clash-for-Windows-0.20.20-x64-linux/icon.jpeg
+   Terminal=false
+   Type=Application
+   Categories=Development;IDE;
+   ```
+   
+   3. 赋予文件可执行权限。
+   ```
+   sudo chmod 744 clash.desktop
+   sudo chmod +x clash.desktop
+   ```
+
+   

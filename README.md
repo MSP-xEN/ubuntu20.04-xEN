@@ -74,3 +74,6 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 2. 功能只有发文字表情微信，连图片都发不了。优麒麟还有几个其他版本的微信，但在Ubuntu上似乎都用不了。还有个deep-in wine版本的微信没用过，不知道好用不。
 
 ### Clash
+1. 先从以下链接下载解压。[https://jbox.sjtu.edu.cn/l/X1iUcn](https://jbox.sjtu.edu.cn/l/X1iUcn)
+2. 创建快捷方式，收藏桌面到左侧栏。
+   1. 

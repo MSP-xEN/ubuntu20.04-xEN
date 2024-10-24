@@ -25,11 +25,13 @@ sudo apt update
 [https://blog.csdn.net/MacWx/article/details/137689898](https://blog.csdn.net/MacWx/article/details/137689898)。
 
 ### gcc, g++, make
+
 ```
 sudo apt install build-essential
 ```
 
 ### VLC播放器
+
 ···
 sudo apt install vlc
 ```

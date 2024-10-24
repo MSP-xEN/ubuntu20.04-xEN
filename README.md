@@ -73,4 +73,4 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 1. 微信目前找到能用的只剩下优麒麟与腾讯合作开发的Linux原生微信[https://ubuntukylin.com/applications/106-cn.html](https://ubuntukylin.com/applications/106-cn.html)。
 2. 功能只有发文字表情微信，连图片都发不了。优麒麟还有几个其他版本的微信，但在Ubuntu上似乎都用不了。还有个deep-in wine版本的微信没用过，不知道好用不。
 
-### CLASH
+### Clash

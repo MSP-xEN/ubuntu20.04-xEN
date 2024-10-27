@@ -185,7 +185,8 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 ### isaacgym
 1. pytorch和isaacgym都是装在conda环境里的包，不需要下载到系统默认环境中。可以先跑一跑官方提供的例程。
 2. ubuntu20.04在安装isaacgym后需要修改环境变量。
-   ```sudo gedit ~/.bashrc
+   ```
+   sudo gedit ~/.bashrc
    ```
    添加以下内容：
    ```

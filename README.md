@@ -193,4 +193,4 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    ```
    此后创建需要使用isaacgym的新环境时也需要如此操作。
 2. leggedgym代码比较早，由于python各种包不断升级，用现在的环境跑以前的代码可能会各种报错。建议先看完以下链接全部内容，再进行安装。[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
-3. 参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
+3. 安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)

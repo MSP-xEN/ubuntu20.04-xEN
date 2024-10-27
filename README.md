@@ -38,10 +38,12 @@ sudo apt install vlc
    ```
    ubuntu-drivers devices
    ```
-此时会出现多个驱动，选择安装后缀写着“recommended”版本，比如我是```sudo apt install nvidia-driver-535```
+   此时会出现多个驱动，选择安装后缀写着“recommended”版本
    ```
    sudo apt install nvidia-driver-XXX
    ```
+
+   比如我是```sudo apt install nvidia-driver-535```。
 2. 重启电脑后输入命令。
    ```
    nvidia-smi

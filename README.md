@@ -182,9 +182,8 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 4. 参考链接[https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html](https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html)  
    [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)
    
-### isaacgym
-1. pytorch和isaacgym都是装在conda环境里的包，不需要下载到系统默认环境中。可以先跑一跑官方提供的例程。
-2. ubuntu20.04在安装isaacgym后需要修改环境变量。
+### isaacgym+leggedgym
+1. ubuntu20.04在安装isaacgym后需要修改环境变量。
    ```
    sudo gedit ~/.bashrc
    ```
@@ -193,4 +192,5 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    export LD_LIBRARY_PATH=/home/david/anaconda3/envs/rlgpu/lib
    ```
    此后创建需要使用isaacgym的新环境时也需要如此操作。
-3. 参考以下链接[https://blog.csdn.net/weixin_44061195/article/details/131830133](https://blog.csdn.net/weixin_44061195/article/details/131830133)
+2. leggedgym代码比较早，由于python各种包不断升级，用现在的环境跑以前的代码可能会各种报错。建议先看完以下链接全部内容，再进行安装。[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
+3. 参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)

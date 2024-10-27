@@ -182,7 +182,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 4. 参考链接[https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html](https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html)  
    [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)
    
-### isaacgym+leggedgym
+### isaacgym+leggedgym——强化学习训练
 1. ubuntu20.04在安装isaacgym后需要修改环境变量。
    ```
    sudo gedit ~/.bashrc

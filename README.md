@@ -184,7 +184,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 4. 参考链接[https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html](https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html)  
    [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)
    
-### isaacgym+leggedgym+unitreegym——强化学习训练
+### isaacgym+leggedgym——强化学习训练
 1. ubuntu20.04在安装isaacgym后需要修改环境变量。
    ```
    sudo gedit ~/.bashrc
@@ -194,11 +194,14 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    export LD_LIBRARY_PATH=/home/david/anaconda3/envs/rlgpu/lib
    ```
    此后创建需要使用isaacgym的新环境时也需要如此操作。
-2. leggedgym代码比较早，由于python各种包不断升级，用现在的环境跑以前的代码可能会各种报错。建议先看完以下链接全部内容，再进行安装。[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
-3. isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
-4. 最后需要导入宇树模型进leggedgym。先下载unitreegym[https://github.com/unitreerobotics/unitree_rl_gym/tree/main](https://github.com/unitreerobotics/unitree_rl_gym/tree/main)。此后运行```train.py```时会报错```AttributeError: module 'numpy.typing' has no attribute 'NDArray'```，需要重新安装numpy版本。
+2. numpy可能需要重装1.21版本。
    ```
-   conda install numpy==1.21
+   pip install numpy=1.21
    ```
 
-5. 以下链接中"添加到task_registry“表述有误，该部分代码应该添加到```legged_gym/envs/_init__.py```。参考以下链接[https://blog.csdn.net/weixin_45315065/article/details/135329689](https://blog.csdn.net/weixin_45315065/article/details/135329689)   
+3. setuptools可能需要回退版本。
+   ```
+   conda install setuptools=59.5.0
+   ```
+4. 其他可能出现的问题参见以下链接[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
+5. 最后需要导入宇树模型进leggedgym。

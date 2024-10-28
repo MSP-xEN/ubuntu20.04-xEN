@@ -196,4 +196,9 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    此后创建需要使用isaacgym的新环境时也需要如此操作。
 2. leggedgym代码比较早，由于python各种包不断升级，用现在的环境跑以前的代码可能会各种报错。建议先看完以下链接全部内容，再进行安装。[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
 3. isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
-4. 最后需要导入宇树模型进leggedgym。先下载unitreegym[https://github.com/unitreerobotics/unitree_rl_gym/tree/main](https://github.com/unitreerobotics/unitree_rl_gym/tree/main)
+4. 最后需要导入宇树模型进leggedgym。先下载unitreegym[https://github.com/unitreerobotics/unitree_rl_gym/tree/main](https://github.com/unitreerobotics/unitree_rl_gym/tree/main)。此后运行```train.py```时会报错```AttributeError: module 'numpy.typing' has no attribute 'NDArray'```，需要重新安装numpy版本。
+   ```
+   conda install numpy==1.21
+   ```
+
+   然后将

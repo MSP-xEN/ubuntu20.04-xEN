@@ -201,4 +201,4 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    conda install numpy==1.21
    ```
 
-5. 以下链接中"添加到task——registry“表述有误，该部分代码应该添加到```legged_gym/envs/_init__.py```。参考以下链接[https://blog.csdn.net/weixin_45315065/article/details/135329689](https://blog.csdn.net/weixin_45315065/article/details/135329689)   
+5. 以下链接中"添加到task_registry“表述有误，该部分代码应该添加到```legged_gym/envs/_init__.py```。参考以下链接[https://blog.csdn.net/weixin_45315065/article/details/135329689](https://blog.csdn.net/weixin_45315065/article/details/135329689)   

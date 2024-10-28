@@ -203,5 +203,6 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
    ```
    conda install setuptools=59.5.0
    ```
-4. 其他可能出现的问题参见以下链接[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
+4. 其他可能出现的问题参见以下链接[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
+   isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
 5. 最后需要导入宇树模型进leggedgym。

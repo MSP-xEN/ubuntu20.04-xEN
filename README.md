@@ -81,6 +81,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 2. 可以设置固定密码，同时设置开机自动启动。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
 
 ### Clash——魔法
+#### 命令行安装法
 1. 先从以下链接下载解压。[https://jbox.sjtu.edu.cn/l/X1iUcn](https://jbox.sjtu.edu.cn/l/X1iUcn)
 2. 创建快捷方式，收藏桌面到左侧栏。
    1. 命令行进入桌面，创建快捷方式。
@@ -145,6 +146,9 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
       ```
    4. 打开设置-设备-键盘-拉到最下方-自定义快捷键+，填写相关内容。其中在命令一栏输入脚本所在路径```/home/david/keyboard_shortcut/toggle_proxy.sh```，保存。
 
+#### 下载clash AppImage图形界面法
+在这个链接下[https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2),AppImage版本然后设置执行权限直接执行
+
 ### zotero+相关插件——文献阅读和管理
 1. 我装的zotero6，听说7不太好用。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
 2. 插件不用装太多，我装了翻译、汉化、笔记、风格共四个热门插件，然后浏览器再装一个插件用来导入文献。插件商店链接[https://zotero-chinese.com/plugins/](https://zotero-chinese.com/plugins/)。插件安装教程自行搜索即可。
@@ -157,6 +161,11 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 网上随便搜个教程即可。记得用学生身份搞一个github copilot，参考以下链接[https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer](https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
 
 ### ros
+#### fishros一键安装法
+fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details/142767709](https://blog.csdn.net/zyx201824101450/article/details/142767709)
+注意最好打开clash代理科学上网,ROS有一步需要梯子.
+
+##### 自行安装法
 1. 记得先装ros再装anaconda，不然可能会有问题。
 2. 如果安装或使用ros时提示“cmake版本过低”，不能直接重装cmake（卸载cmake会把ros一起卸载），而是要上网搜索更改软链接的方法。
 3. 参考以下链接[https://blog.csdn.net/qq_44339029/article/details/108919545](https://blog.csdn.net/qq_44339029/article/details/108919545)

@@ -158,7 +158,9 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 [https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)
 
 ### vscode
-网上随便搜个教程即可。记得用学生身份搞一个github copilot，参考以下链接[https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer](https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
+1. 网上随便搜个教程即可。
+2. 记得用学生身份搞一个github copilot，参考以下链接[https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer](https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
+3. vscode自带debug，通过debug读懂项目文件和调试代码。[https://www.bilibili.com/video/BV1vDakeDE2n?vd_source=a724bfd1b4b642794a14a920e236e2f1&spm_id_from=333.788.videopod.episodes](https://www.bilibili.com/video/BV1vDakeDE2n?vd_source=a724bfd1b4b642794a14a920e236e2f1&spm_id_from=333.788.videopod.episodes)
 
 ### ros
 #### fishros一键安装法
@@ -214,4 +216,7 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
    ```
 4. 其他可能出现的问题参见以下链接[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
    isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
-5. 最后需要导入宇树模型进leggedgym。
+5. 导入宇树模型进leggedgym。
+   1. 克隆以下项目[https://github.com/unitreerobotics/unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym)，将```unitree_rl_gym/resources/robots/go2```整个文件夹复制到```legged_gym/resources/robots```
+   2. 将```unitree_rl_gym/legged_gym/envs/go2```整个文件夹复制到```legged_gym/legged_gym/envs```。
+   3. 在```legged_gym/legged_gym/envs/__init__.py```文件中，仿照```a1```机器人的相关语句格式，注册```go2```。

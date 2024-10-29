@@ -219,4 +219,4 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
 5. 导入宇树模型进leggedgym。
    1. 克隆以下项目[https://github.com/unitreerobotics/unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym)，将```unitree_rl_gym/resources/robots/go2```整个文件夹复制到```legged_gym/resources/robots```
    2. 将```unitree_rl_gym/legged_gym/envs/go2```整个文件夹复制到```legged_gym/legged_gym/envs```。
-   3. 在```legged_gym/legged_gym/envs/__init__.py```文件中，仿照```a1```机器人的相关语句格式，注册```go2```。
+   3. 在```legged_gym/legged_gym/envs/__init__.py```文件中，仿照```a1```机器人的相关语句格式，注册```go2```（共需添加两行代码）。

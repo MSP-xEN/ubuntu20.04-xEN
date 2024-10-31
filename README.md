@@ -155,7 +155,7 @@ QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。U
 
 ### git+ssh配置+git代理设置——github
 [https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)  
-[https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)
+[https://zhuanlan.zhihu.com/p/378894743](https://zhuanlan.zhihu.com/p/378894743)
 
 ### vscode
 1. 网上随便搜个教程即可。

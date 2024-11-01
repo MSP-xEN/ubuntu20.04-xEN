@@ -215,7 +215,7 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
    conda install setuptools=59.5.0
    ```
 4. 其他可能出现的问题参见以下链接[https://blog.csdn.net/weixin_45315065/article/details/132902799](https://blog.csdn.net/weixin_45315065/article/details/132902799)
-5. isaacgym和leggedgym安装参考以下链接[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
+5. isaacgym和leggedgym安装参考以下链接（如果只装isaacgym就停在相应步骤即可）[https://github.com/leggedrobotics/legged_gym](https://github.com/leggedrobotics/legged_gym)
 6. 导入宇树模型进leggedgym。
    1. 克隆以下项目[https://github.com/unitreerobotics/unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym)，将```unitree_rl_gym/resources/robots/go2```整个文件夹复制到```legged_gym/resources/robots```
    2. 将```unitree_rl_gym/legged_gym/envs/go2```整个文件夹复制到```legged_gym/legged_gym/envs```。

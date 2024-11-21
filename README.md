@@ -207,7 +207,7 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
    此后创建需要使用isaacgym的新环境时也需要如此操作。
 2. numpy可能需要重装1.21版本。
    ```
-   pip install numpy=1.21
+   pip install numpy==1.21
    ```
 
 3. setuptools可能需要回退版本。

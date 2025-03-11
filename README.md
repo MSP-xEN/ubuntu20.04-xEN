@@ -38,7 +38,7 @@ sudo apt install vlc
    ```
    ubuntu-drivers devices
    ```
-   此时会出现多个驱动，选择安装后缀写着“recommended”版本
+   此时会出现多个驱动，选择安装后缀写着“recommended”版本，不能装带server的，那是服务器版本
    ```
    sudo apt install nvidia-driver-XXX
    ```

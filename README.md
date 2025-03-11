@@ -62,7 +62,7 @@ sudo apt install vlc
 [https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)  
 [https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html](https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html)
 
-如果要更新显卡驱动，需要解除掉禁止自动更新你，参考下文[https://zhuanlan.zhihu.com/p/671274846](https://zhuanlan.zhihu.com/p/671274846)
+如果要更新显卡驱动，需要解除掉禁止自动更新，参考下文[https://zhuanlan.zhihu.com/p/671274846](https://zhuanlan.zhihu.com/p/671274846)
 
 ### 浏览器
 1. ubuntu自带的火狐并不好用。如果在windows用的是edge或者chrome的话，在ubuntu中与windows同步即可。登录账号之后还能通用收藏夹等等，比较方便。安装方法随便一搜即可。

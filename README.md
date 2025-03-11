@@ -61,6 +61,7 @@ sudo apt install vlc
 [https://blog.csdn.net/sdbyp/article/details/139606901](https://blog.csdn.net/sdbyp/article/details/139606901)  
 [https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)  
 [https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html](https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html)
+
 如果要更新显卡驱动，需要解除掉禁止自动更新你，参考下文[https://zhuanlan.zhihu.com/p/671274846](https://zhuanlan.zhihu.com/p/671274846)
 
 ### 浏览器

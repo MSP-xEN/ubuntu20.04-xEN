@@ -72,8 +72,7 @@ sudo apt install vlc
 QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。Ubuntu的各种微信除了不能用的就是垃圾。[https://blog.csdn.net/weixin_56656559/article/details/135640700](https://blog.csdn.net/weixin_56656559/article/details/135640700)
 
 ### 微信
-1. 微信目前找到能用的只剩下优麒麟与腾讯合作开发的Linux原生微信[https://ubuntukylin.com/applications/106-cn.html](https://ubuntukylin.com/applications/106-cn.html)。
-2. 功能只有发文字表情微信，连图片都发不了。优麒麟还有几个其他版本的微信，但在Ubuntu上似乎都用不了。还有个deep-in wine版本的微信没用过，不知道好用不。
+Linux官方版本已更新。[https://linux.weixin.qq.com/](https://linux.weixin.qq.com/)。下载完毕后```sudo dpkg -i WeChatxxx```即可安装。
 
 ### 搜狗输入法
 参考以下链接[https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005](https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005)

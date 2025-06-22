@@ -221,3 +221,32 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
    1. 克隆以下项目[https://github.com/unitreerobotics/unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym)，将```unitree_rl_gym/resources/robots/go2```整个文件夹复制到```legged_gym/resources/robots```
    2. 将```unitree_rl_gym/legged_gym/envs/go2```整个文件夹复制到```legged_gym/legged_gym/envs```。
    3. 在```legged_gym/legged_gym/envs/__init__.py```文件中，仿照```a1```机器人的相关语句格式，注册```go2```（共需添加两行代码）。
+  
+### Issaclab安装
+`wget -O install_isaaclab.sh https://docs.robotsfan.com/install_isaaclab.sh && bash install_isaaclab.sh`
+
+使用该一键安装指令即可
+
+![image.png](attachment:87b1f1d7-16f8-48f9-8acc-d179a7eb64d9:image.png)
+
+**选择项**
+
+![image.png](attachment:3dadd1c0-18a4-4f7f-8e69-89d55f78c788:image.png)
+
+如果之前没有会自动创建，然后会一键安装所需的库
+
+![image.png](attachment:321cde0a-9b2c-4bd0-ab4a-2f8e94fa5157:image.png)
+
+这个地方如果是20.04或者ros非humble及以上，**选择n**，不然会无法完成接下来的安装
+
+![image.png](attachment:b2351c0b-d29e-4894-8795-99970b344418:image.png)
+
+选个路径放issaclab的代码，随便选就好
+
+![image.png](attachment:faa2b474-8da1-498c-a55b-c01abfc260d9:image.png)
+
+选择最新的
+
+![image.png](attachment:cc1ed265-5e2f-414e-8687-9147cfb22405:image.png)
+
+这里可以打开看看了，一般第一次加载会非常缓慢，大概要十分钟左右，如果看到force quit选wait。也可以在issaclab文件夹里 python scripts/tutorails/00_sim/create_empty.py, 如果正常打开就是安装成功了

@@ -38,7 +38,7 @@ sudo apt install vlc
    ```
    ubuntu-drivers devices
    ```
-   此时会出现多个驱动，选择安装后缀写着“recommended”版本，不能装带server的，那是服务器版本
+   此时会出现多个驱动，选择安装后缀写着“recommended”版本（但是版本也不要太高，我是4060配535版本就挺好）；不能装带server的，那是服务器版本。
    ```
    sudo apt install nvidia-driver-XXX
    ```
@@ -69,7 +69,7 @@ sudo apt install vlc
 2. 安装完成后设置ubuntu默认浏览器，参考[https://cn.linux-console.net/?p=14822](https://cn.linux-console.net/?p=14822)
 
 ### QQ
-QQ有官方Linux版本，很好用，可惜工作相关内容都在微信上。Ubuntu的各种微信除了不能用的就是垃圾。[https://blog.csdn.net/weixin_56656559/article/details/135640700](https://blog.csdn.net/weixin_56656559/article/details/135640700)
+QQ有官方Linux版本，很好用。[https://blog.csdn.net/weixin_56656559/article/details/135640700](https://blog.csdn.net/weixin_56656559/article/details/135640700)
 
 ### 微信
 Linux官方版本已更新。[https://linux.weixin.qq.com/](https://linux.weixin.qq.com/)。下载完毕后```sudo dpkg -i WeChatxxx```即可安装。

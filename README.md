@@ -45,8 +45,13 @@ sudo apt install vlc
 
    比如我是```sudo apt install nvidia-driver-535```。
 
-   如果是50系显卡，“软件与更新”中不存在推荐驱动，上述命令也不生效。需要去官网下载对应的.run文件（5060下的是570.run）。然后在安装过程中需要选择nvidia property还是GPL，选GPL。还有个x config，选no。
-2. 重启电脑后输入命令。
+   如果是50系显卡，“软件与更新”中不存在推荐驱动，上述命令也不生效。需要去官网下载对应的.run文件（5060下的是570.run）。很多教程说要禁用图形界面，但实测应该不需要禁用。直接执行以下命令
+   ```
+   sudo chmod  a+x NVIDIA-Linux-x86_64-396.18.run
+   sudo ./NVIDIA-Linux-x86_64-396.18.run -no-x-check -no-nouveau-check -no-opengl-files
+   ```
+   然后在安装过程中需要选择nvidia property还是GPL，选GPL，参考以下链接[https://minetest.top/archives/zai-linuxxia-wei-nvidia-50xi-an-zhuang-xian-qia-qu-dong](https://minetest.top/archives/zai-linuxxia-wei-nvidia-50xi-an-zhuang-xian-qia-qu-dong)。还有个x config，选no。
+3. 重启电脑后输入命令。
    ```
    nvidia-smi
    ```

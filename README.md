@@ -44,6 +44,8 @@ sudo apt install vlc
    ```
 
    比如我是```sudo apt install nvidia-driver-535```。
+
+   如果是50系显卡，“软件与更新”中不存在推荐驱动，上述命令也不生效。需要去官网下载对应的.run文件（5060下的是570.run）。然后在安装过程中需要选择nvidia property还是GPL，选GPL。还有个x config，选no。
 2. 重启电脑后输入命令。
    ```
    nvidia-smi
@@ -51,7 +53,7 @@ sudo apt install vlc
 
 如果正确显示驱动信息，则证明安装成功。如果报错，再重启一遍。如果还不行，那就再想办法吧，大概率要卸载驱动重装。
 
-3. 重启电脑如果黑屏并且左上角有个下划线形状的光标一直在跳，那就参考这个链接[https://blog.csdn.net/qq_43460315/article/details/142643949](https://blog.csdn.net/qq_43460315/article/details/142643949)。只要能回到图形界面，就可以重装显卡驱动了。
+3. 重启电脑如果黑屏并且左上角有个下划线形状的光标一直在跳，那就参考这个链接[https://blog.csdn.net/qq_43460315/article/details/142643949](https://blog.csdn.net/qq_43460315/article/details/142643949)或者[https://zhuanlan.zhihu.com/p/608786007](https://zhuanlan.zhihu.com/p/608786007)。只要能回到图形界面，就可以重装显卡驱动了。
 4. 然后装cuda。```nvidia-smi```命令显示的是当前显卡驱动适配的最高版本cuda，实际安装时再倒退一两个版本以求稳定。
    1. cuda装完之后添加环境变量可以直接写到```~/.bashrc```当中。
    2. 参考以下链接中的cuda和cudnn部分，pytorch先不要装。[https://blog.csdn.net/m0_55127902/article/details/135677560](https://blog.csdn.net/m0_55127902/article/details/135677560)

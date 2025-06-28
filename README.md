@@ -28,6 +28,10 @@ This is how you code.
 sudo apt install build-essential
 ```
 
+### teamviewer——远程控制
+1. 安装教程随便搜。
+2. 可以设置固定密码，同时设置开机自动启动。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
+   
 ### VLC播放器——看视频的
 ```
 sudo apt install vlc
@@ -50,8 +54,8 @@ sudo apt install vlc
    sudo chmod  a+x NVIDIA-Linux-x86_64-396.18.run
    sudo ./NVIDIA-Linux-x86_64-396.18.run -no-x-check -no-nouveau-check -no-opengl-files
    ```
-   然后在安装过程中需要选择nvidia property还是GPL，选GPL，参考以下链接[https://minetest.top/archives/zai-linuxxia-wei-nvidia-50xi-an-zhuang-xian-qia-qu-dong](https://minetest.top/archives/zai-linuxxia-wei-nvidia-50xi-an-zhuang-xian-qia-qu-dong)。还有个x config，选no。
-3. 重启电脑后输入命令。
+   然后在安装过程中需要选择nvidia property还是GPL，选GPL，参考以下链接[https://minetest.top/archives/zai-linuxxia-wei-nvidia-50xi-an-zhuang-xian-qia-qu-dong](https://minetest.top/archives/zai-linuxxia-wei-nvidia-50xi-an-zhuang-xian-qia-qu-dong)。还有个x config问题，选no；还有个32-bit问题，选no。
+2. 输入命令。
    ```
    nvidia-smi
    ```
@@ -64,7 +68,7 @@ sudo apt install vlc
    2. 参考以下链接中的cuda和cudnn部分，pytorch先不要装。[https://blog.csdn.net/m0_55127902/article/details/135677560](https://blog.csdn.net/m0_55127902/article/details/135677560)
 5. 最后装cudnn。同样参考上述链接。
 
-### 关闭ubuntu内核自动更新以及显卡驱动自动更新——不然哪一天系统又崩了
+### （可选）关闭ubuntu内核自动更新以及显卡驱动自动更新——不然哪一天系统又崩了
 [https://blog.csdn.net/sdbyp/article/details/139606901](https://blog.csdn.net/sdbyp/article/details/139606901)  
 [https://www.zhihu.com/question/617290612](https://www.zhihu.com/question/617290612)  
 [https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html](https://www.cnblogs.com/schips/p/disable_ubuntu_kernel_autoupdate.html)
@@ -81,14 +85,13 @@ QQ有官方Linux版本，很好用。[https://blog.csdn.net/weixin_56656559/arti
 ### 微信
 Linux官方版本已更新。[https://linux.weixin.qq.com/](https://linux.weixin.qq.com/)。下载完毕后```sudo dpkg -i WeChatxxx```即可安装。
 
-### 搜狗输入法
+### （可选）搜狗输入法
 参考以下链接[https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005](https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005)
 
-### teamviewer——远程控制
-1. 安装教程随便搜。
-2. 可以设置固定密码，同时设置开机自动启动。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
+### 下载clash AppImage图形界面法
+在这个链接下[https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2),AppImage版本然后设置执行权限直接执行
 
-### Clash——魔法
+### Clash老版本
 #### 命令行安装法
 1. 先从以下链接下载解压。[https://jbox.sjtu.edu.cn/l/X1iUcn](https://jbox.sjtu.edu.cn/l/X1iUcn)
 2. 创建快捷方式，收藏桌面到左侧栏。
@@ -154,13 +157,6 @@ Linux官方版本已更新。[https://linux.weixin.qq.com/](https://linux.weixin
       ```
    4. 打开设置-设备-键盘-拉到最下方-自定义快捷键+，填写相关内容。其中在命令一栏输入脚本所在路径```/home/david/keyboard_shortcut/toggle_proxy.sh```，保存。
 
-#### 下载clash AppImage图形界面法
-在这个链接下[https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2),AppImage版本然后设置执行权限直接执行
-
-### zotero+相关插件——文献阅读和管理
-1. 我装的zotero6，听说7不太好用。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
-2. 插件不用装太多，我装了翻译、汉化、笔记、风格共四个热门插件，然后浏览器再装一个插件用来导入文献。插件商店链接[https://zotero-chinese.com/plugins/](https://zotero-chinese.com/plugins/)。插件安装教程自行搜索即可。
-
 ### git+ssh配置+git代理设置——github
 [https://blog.csdn.net/qq_31635851/article/details/123333398](https://blog.csdn.net/qq_31635851/article/details/123333398)  
 [https://zhuanlan.zhihu.com/p/378894743](https://zhuanlan.zhihu.com/p/378894743)
@@ -185,7 +181,7 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
 
 ### anaconda
 1. 一定确保先装ros再装conda。
-2. 不要默认启动conda。
+2. 不要默认启动conda的base环境。
 3. 不要把conda加到环境变量中，用ubuntu20.04默认的python3就挺好。
 4. 参考以下链接[https://blog.csdn.net/m0_50117360/article/details/108403586](https://blog.csdn.net/m0_50117360/article/details/108403586)
 5. 如果conda还是莫名自动启动了，用以下命令禁止：
@@ -193,15 +189,9 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
    conda config --set auto_activate_base false
    ```
 
-### 宇树
-1. LCM装1.5版本，不要装1.4版本。其余包与链接中保持一致即可。
-2. 如果安装```unitree_legged_sdk```后试运行```./example_walk```报错```error while loading shared libraries: liblcm.so.1: cannot open shared object file: No such file or directory```，那么执行以下命令
-   ```
-   sudo apt install liblcm-dev
-   ```
-3. 知乎链接中的“4.修改环境变量”没必要。
-4. 参考链接[https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html](https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html)  
-   [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)
+### zotero+相关插件——文献阅读和管理
+1. 我装的zotero6，听说7不太好用。参考以下链接[https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html](https://jingyan.baidu.com/article/0a52e3f4fee8a4bf62ed7230.html)
+2. 插件不用装太多，我装了翻译、汉化、笔记、风格共四个热门插件，然后浏览器再装一个插件用来导入文献。插件商店链接[https://zotero-chinese.com/plugins/](https://zotero-chinese.com/plugins/)。插件安装教程自行搜索即可。
    
 ### isaacgym+leggedgym——强化学习训练
 1. ubuntu20.04在安装isaacgym后需要修改环境变量。
@@ -256,3 +246,14 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
 **Verifiy with graphical interface**
 
 这里可以打开看看了，一般第一次加载会非常缓慢，大概要十分钟左右，如果看到force quit选wait。也可以在issaclab文件夹里 python scripts/tutorails/00_sim/create_empty.py, 如果正常打开就是安装成功了
+
+   
+### unitree_ros
+1. LCM装1.5版本，不要装1.4版本。其余包与链接中保持一致即可。
+2. 如果安装```unitree_legged_sdk```后试运行```./example_walk```报错```error while loading shared libraries: liblcm.so.1: cannot open shared object file: No such file or directory```，那么执行以下命令
+   ```
+   sudo apt install liblcm-dev
+   ```
+3. 知乎链接中的“4.修改环境变量”没必要。
+4. 参考链接[https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html](https://icymon.github.io/IT_infrastructure/Ubuntu20.04Install_unitree_ros.html)  
+   [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)

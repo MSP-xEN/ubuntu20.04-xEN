@@ -165,6 +165,7 @@ Linux官方版本已更新。[https://linux.weixin.qq.com/](https://linux.weixin
 1. 网上随便搜个教程即可。
 2. 记得用学生身份搞一个github copilot，参考以下链接[https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer](https://docs.github.com/zh/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
 3. vscode自带debug，通过debug读懂项目文件和调试代码。[https://www.bilibili.com/video/BV1vDakeDE2n?vd_source=a724bfd1b4b642794a14a920e236e2f1&spm_id_from=333.788.videopod.episodes](https://www.bilibili.com/video/BV1vDakeDE2n?vd_source=a724bfd1b4b642794a14a920e236e2f1&spm_id_from=333.788.videopod.episodes)
+4. 安装插件“Overleaf Workshop”。连接到latex.sjtu.edu.cn。使用sjtu latex独立密码（不是jaccount）或者cookie登录。具体可参考以下两个视频：[https://www.bilibili.com/video/BV1RQALePEuu](https://www.bilibili.com/video/BV1RQALePEuu)，[https://www.bilibili.com/video/BV1NsQEYcEL7](https://www.bilibili.com/video/BV1NsQEYcEL7)
 
 ### ros
 #### fishros一键安装法

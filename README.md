@@ -261,4 +261,7 @@ fishros 一键安装参考[https://blog.csdn.net/zyx201824101450/article/details
    [https://zhuanlan.zhihu.com/p/543566158](https://zhuanlan.zhihu.com/p/543566158)
 
 ### mujoco
-最好用二进制文件安装
+最好用二进制文件安装，或者python直接pip安装
+
+### docker
+参考链接[https://developer.aliyun.com/article/1656693](https://developer.aliyun.com/article/1656693)

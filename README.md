@@ -88,6 +88,8 @@ Linux官方版本已更新。[https://linux.weixin.qq.com/](https://linux.weixin
 ### （可选）搜狗输入法
 参考以下链接[https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005](https://www.zhihu.com/tardis/zm/art/615309698?source_id=1005)
 
+### 22.04用clash verge
+
 ### 下载clash AppImage图形界面法
 在这个链接下[https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.6.2),AppImage版本然后设置执行权限直接执行
 
